@@ -1,0 +1,27 @@
+{
+  "name": "whatsappbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tancejang/whatsappbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tancejang/whatsappbot/issues"
+  },
+  "homepage": "https://github.com/tancejang/whatsappbot#readme",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.11.1",
+    "bard-builder": "^1.3.13",
+    "mysql": "^2.18.1",
+    "node-cache": "^5.1.2",
+    "sequelize": "^6.6.5"
+  }
+}
